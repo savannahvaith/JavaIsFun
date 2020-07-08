@@ -1,6 +1,6 @@
 # Learning Java 
 
-Hello :-) This is what helps me revise and understand Java - hopefully it can be of use to you also!
+Hello :-) This is a repo for logic building within Java - hopefully it can be of use to you!
 
 ## Exercises
 
