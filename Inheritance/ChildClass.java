@@ -29,4 +29,3 @@ public class ChildClass extends ParentClass{
  * They cannot be used in Child classes NEW methods
  */
 
-*/
