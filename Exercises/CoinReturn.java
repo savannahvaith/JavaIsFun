@@ -8,11 +8,12 @@
 	1 x £2 coin
 	1 x £1 coin
 */
-
 class CoinReturn{	
 	public String calculateChange(int purchasePrice, int moneyGiven){
 		// Calculate the change required 
-		int change = moneyGiven - purchasePrice;
+		int change=0; 
+		change = moneyGiven - purchasePrice;
+		
 		int n50 =0, n20 =0, n10 =0, n5=0, n2=0, n1 =0; 
 		if(change >=50){
 			n50 = change/50; 
@@ -43,6 +44,14 @@ class CoinReturn{
 	
 	public static void main(String xyz[]){
 		CoinReturn cr = new CoinReturn();
-		System.out.println(cr.calculateChange(Integer.parseInt(xyz[0]),Integer.parseInt(xyz[1])));
+		try{
+			System.out.println(cr.calculateChange(Integer.parseInt(xyz[0]),Integer.parseInt(xyz[1])));
+		}
+		catch(NumberFormatException e){
+			System.out.println("Please enter a valid number");
+		}
+		catch(ArrayIndexOutOfBoundsException e2){
+			System.out.println("Please supply two arguments as parameter");
+		}
 	}
 }
