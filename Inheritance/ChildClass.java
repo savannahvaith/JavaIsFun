@@ -26,7 +26,5 @@ public class ChildClass extends ParentClass{
 
 /*
  * This code will not compile because although child classes can inherit private methods / members 
- * They cannot be used in Child classes NEW methods
+ * They cannot be used in Child classes NEW method
  */
-
-*/
