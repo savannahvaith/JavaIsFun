@@ -17,7 +17,7 @@ public class ChildClass extends ParentClass{
 		}
 	}
 	
-	public static void Main(String[] args) {
+	public static void main(String[] args) {
 		ChildClass b = new ChildClass(); 
 		System.out.println(b.modifyVal(10));
 	}
