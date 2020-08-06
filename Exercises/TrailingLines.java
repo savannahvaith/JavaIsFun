@@ -18,11 +18,10 @@ class TrailingLines {
 				System.out.print(b);
 				if(b+1<= a){
 					System.out.print(",");
-					b++;
 				}else{
 					System.out.print(".");
-					b++;
 				}
+				b++;
 			}
 		System.out.println("");
 		a++;
