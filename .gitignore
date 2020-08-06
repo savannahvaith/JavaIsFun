@@ -1,3 +1,2 @@
 *.class
-/Exercises/*.class
-/Exercises/BasicJava/.*class
+*/.*class
